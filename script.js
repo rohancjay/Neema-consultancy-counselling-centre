@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const fieldName = field.name;
         const value = field.value;
 
-        if (fieldName === 'message' || fieldName === '_replyto' || fieldName === '_subject' || fieldName === '_next' || fieldName === '_gotcha') return true;
+        if (fieldName === 'Message' || fieldName === '_Replyto' || fieldName === '_Subject' || fieldName === '_Next' || fieldName === '_Gotcha') return true;
 
         const isValid = validators[fieldName](value);
 
