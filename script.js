@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 return;
             }
             
-            alert('Something went wrong. Please try again or contact us directly at neemacccenter@gmail.com');
+            alert('Something went wrong. Please try again or contact us directly at neemaccenter@gmail.com');
         } finally {
             submitBtn.classList.remove('loading');
             submitBtn.disabled = false;
